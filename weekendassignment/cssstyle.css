@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+    em{
+        color: blue;
+        font-size:large;
+    }
+    .style, span{
+        font-family: 'Dosis@400' sans-serif;
+        color:crimson;
+    }
+    div{
+        font-family: 'Roboto', sans-serif;
+        font-size:medium;
+    }
+    nav a{
+        color:darkturquoise;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .image{
+        width: 100%;
+    
+    }
+    nav{
+        background-color:black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        display: flex;
+        flex: row;
+        list-style-type: none;
+        align-items: center;
+
+    }
+    #tik{
+        width: 20%;
+        height: 100%;
+    }
+nav a:hover{
+    color:whitesmoke;
+
+}
+a{
+    color:tomato;
+}
