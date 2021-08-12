@@ -10,8 +10,9 @@ nav{
     overflow: auto;
 }
 #style{
-    width: 90px;
+    width: 130px;
     margin: 5px;
+    margin-left: 7%;
 }
 .pic{
     width: 100%;
@@ -20,6 +21,7 @@ nav{
 ul{
     float: right;
     padding: 25px;
+    margin-right: 10%;
 }
 li{
     text-align: right;
@@ -36,6 +38,9 @@ nav a{
     padding: 5px;
     text-align: right;
 
+}
+a{
+    color:forestgreen;
 }
 
 

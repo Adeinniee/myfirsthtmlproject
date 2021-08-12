@@ -1,0 +1,22 @@
+.box{
+    position: relative;
+    width:400px;
+}
+.pic{
+    display:block;
+    width:100%;
+}
+
+.text_overlay{
+    position: absolute;
+    color: blue;
+    margin-left: 42%;
+    width: 17%;
+    top:25%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

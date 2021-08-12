@@ -1,23 +1,45 @@
 nav{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to top,black,darkred);
     
+    overflow: auto;
 }
-strong{
-    font-size:larger;
-    color: darkred;
-}
-h1{
-    color: blue;
+.effect{
+    color: #731010;
 }
 nav ul,li{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    text-decoration: none;
+    align-items: center;
+    padding-left: 10%
 }
 nav a{
-    justify-content: space-around;
+    justify-content: space-between;
+    text-decoration: none;
+    color:seagreen;
+    padding: 5px;
 }
 #logo{
-    width: 100%;
+    width: 15%;
+    margin-left: 10%;
 
 }
+a{
+    color:firebrick;
+}
+a:hover{
+    color:darkmagenta;
+}
+.picc{
+    width: 100%;
+}
+span{
+    color: #F2273F;
+}
+nav a:hover{
+    color:honeydew;
+}
+
+
